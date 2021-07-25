@@ -47,3 +47,37 @@ var e=5;
 var e;
 console.log(e);  //5
 e=5;
+
+//functions
+
+function hello(){
+
+    return "functions in java script"
+}
+var y=console.log(hello());
+
+
+function add(a,b){
+    var sum=a+b;
+    return sum;
+}
+ var res=add(7,6);
+console.log(res);
+//functional hoisting
+var res=add(7,6);
+console.log(res);
+function add(a,b){
+    var sum=a+b;
+    return sum;
+}
+
+//functional expression
+var rem=mul(9,8);
+ console.log(rem);
+ var mul=function(a,b){
+     var x=a*b;
+     return x;
+
+ }
+ var rem=mul(9,8);
+ console.log(rem);
